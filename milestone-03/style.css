@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF8F3; /* Soft Beige / Creamy background matching with yellow tones */
+}
+
+form {
+    margin: 40px auto;
+    background-color: #FFFFFF; /* White background for the form */
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 800px;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: #3C3C3C; /* Dark gray for a professional heading */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #D8B400; /* Dark Yellow border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF9C4; /* Light Yellow background inside the fieldset */
+}
+
+legend {
+    font-weight: bold;
+    color: #3C3C3C; /* Dark gray for legible text */
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    color: #3C3C3C; /* Dark gray text for labels */
+    font-size: 16px;
+}
+
+input, textarea {
+    margin-top: 6px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #D8B400;  /* Dark Yellow border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #FFFFFF;  /* White background for inputs */
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #D8B400; /* Dark Yellow button */   
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #B89A00;
+}
+
+#resume-display {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #D8B400;
+    border-radius: 12px;
+    background-color: #FFF9C4; /* Light Yellow background */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+#resume-display h2 {
+    color: #3C3C3C; /* Dark gray for headings */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#resume-display p {
+    color: #3C3C3C; /* Dark gray for content text */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#resume-display ul {
+    color: #3C3C3C; /* Dark gray for list items */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#resume-display li {
+    margin-bottom: 8px;
+}
+
